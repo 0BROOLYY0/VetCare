@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom, #ffffff, #e9dffb, #dbbdf1, #d399e2, #d071cd);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*HEADER*/
+header {
+    padding-top: 60px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    width: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(155, 24, 155);
+}
+
+header a p {
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 3px 1px 2px rgb(99, 96, 96);
+
+}
+
+header a:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+header nav {
+    background: linear-gradient(45deg, rgba(153, 14, 196, 0.884), rgb(247 10 228), transparent);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 158px;
+    padding: 0 30px;
+}
+
+header nav ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+
+header nav ol li {
+    margin-right: 60px;
+}
+
+header nav ol li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 12px 8px;
+    border-top: 2px solid transparent;
+    transition: 300ms;
+}
+
+header nav ol li a:hover {
+    border-color: white;
+    text-shadow: 3px 1px 2px rgb(12, 10, 10);
+}
+
+header nav form {
+    position: relative;
+}
+
+header nav form input {
+    width: 160px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    padding: 5px;
+    color: rgb(112, 110, 110);
+    font-weight: 600;
+}
+
+header nav form input:hover {
+    cursor: pointer;
+    width: 170px;
+}
+
+header nav form button {
+    all: unset;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: rgb(112, 110, 110);
+}
+
+/*CONTENT*/
+#ss {
+    width: 100%;
+    height: 400px;
+    background-image: url(veeet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ss .p {
+    color: rgba(119, 131, 187, 0.774);
+    display: inline;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 60px;
+}
+
+#ss .p .sp {
+    color: rgba(68, 83, 150, 0.774);
+    text-shadow: 2px 0.5px 2px rgb(97, 90, 90);
+}
+
+#ss .p .sp a {
+    text-decoration: none;
+    color: rgba(68, 83, 150, 0.774);
+}
+
+#ss .pp {
+    color: rgba(119, 131, 187, 0.774);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 100px;
+}
+
+#ss .pp .spp {
+    color: rgba(68, 83, 150, 0.774);
+    font-weight: bolder;
+    font-size: large;
+}
+
+#ss .bls {
+    background-color: white;
+    display: flex;
+    width: 480px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+#ss .bls:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+
+}
+
+#ss .bls p {
+    color: rgba(119, 131, 187, 0.774);
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#ss .bls input {
+    margin-left: 8px;
+    height: 30px;
+    width: 190px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(240, 199, 150, 0.925);
+    color: white;
+}
+
+#ss .bls input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.menuu {
+    display: none;
+}
+
+/*FOOTER*/
+footer {
+    color: rgba(60, 81, 168, 0.925);
+    font-weight: 600;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+/*MEDIA SCREEN*/
+@media (max-width: 1199.98px) {
+    header nav {
+        margin-left: unset;
+        padding: 0 10px;
+    }
+
+    header a p {
+        font-size: large;
+    }
+
+    #ss .p {
+        padding-left: 20px;
+    }
+
+    #ss .pp {
+        padding-left: 50px;
+    }
+
+    #ss .bls {
+        width: 400px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+
+    #ss .bls input {
+        height: 25px;
+        width: 185px;
+        margin-right: 8px;
+    }
+
+    #ss .bls p {
+        padding-left: 25px;
+    }
+
+    #ss .bls #agenda {
+        padding-left: 10px;
+        height: 30px;
+    }
+
+    img,
+    svg {
+        height: 30px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    header nav {
+        padding: 0 5px;
+    }
+
+    header nav ol li {
+        margin-right: 20px;
+    }
+
+    header nav form input:hover {
+        width: 170px;
+    }
+
+    header nav ol li a {
+        padding: 8px 4px;
+    }
+
+    #ss {
+        margin-top: -5px;
+    }
+
+    #ss .p {
+        font-size: x-large;
+    }
+
+    #ss .pp {
+        padding-left: 5px;
+    }
+
+    #ss .bls {
+        height: 30px;
+        margin-left: 0px;
+    }
+
+    #ss .bls input {
+        height: 21px;
+        width: 158px;
+        font-size: small;
+    }
+
+    #ss .bls p {
+        padding-left: 15px;
+        font-size: x-small;
+        font-weight: bold;
+    }
+
+    #ss .bls #agenda {
+        height: 24px;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    header nav {
+        padding: 0px 0px;
+    }
+
+    header nav ol li {
+        margin-right: 8px;
+    }
+
+    header nav form input {
+        width: 90px;
+        font-weight: 500;
+        font-size: small;
+    }
+
+    header nav form input:hover {
+        width: 90px;
+    }
+
+    #ss {
+        height: 300px;
+    }
+
+    #ss .p {
+        font-size: large;
+    }
+
+    #ss .p {
+        padding-left: 10px;
+    }
+
+    #ss .pp .spp {
+        font-size: small;
+    }
+
+    #ss .pp {
+        padding-left: 0px;
+        font-size: small;
+    }
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: rgb(78, 3, 78);
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0;
+        z-index: 999;
+        justify-content: unset;
+        align-items: unset;
+        padding-left: 34px;
+        transform: translateX(-250px);
+        transition: 300ms;
+    }
+
+    header nav ol {
+        flex-direction: column;
+    }
+
+    header nav ol li {
+        margin-top: 15px;
+    }
+
+    header nav form {
+        order: -1;
+        margin-top: 10px;
+    }
+
+    header nav form input {
+        width: 180px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    header nav form button {
+        right: 50px;
+        top: 7px;
+        font-weight: 600;
+    }
+
+    header nav form input:hover {
+        width: 180px;
+    }
+
+    img,
+    svg {
+        height: 50px;
+        width: 50px;
+    }
+
+    header a p {
+        font-size: larger;
+    }
+
+
+    .btn-mobile {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+
+    header .btn-mobile:before,.btn-mobile:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-left: 60px;
+    }
+
+    .btn-mobile:after {
+        bottom: 0;
+    }
+
+    .btn-mobile:before {
+        box-shadow: 0px 14px 0px #111;
+    }
+    header nav.show {
+        transform: unset;
+    }
+    .slide-mobile {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        transition: 300ms;
+    }
+    .slide-mobile.show {
+        opacity: .6;
+        visibility: visible;
+    }
+
+    footer {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 576px) {
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: rgb(78, 3, 78);
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0;
+        z-index: 999;
+        justify-content: unset;
+        align-items: unset;
+        padding-left: 34px;
+        transform: translateX(-250px);
+        transition: 300ms;
+    }
+
+    header nav ol {
+        flex-direction: column;
+    }
+
+    header nav ol li {
+        margin-top: 15px;
+    }
+
+    header nav form {
+        order: -1;
+        margin-top: 10px;
+    }
+
+    header nav form input {
+        width: 180px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    header nav form button {
+        right: 50px;
+        top: 7px;
+        font-weight: 600;
+    }
+
+    header nav form input:hover {
+        width: 180px;
+    }
+
+    img,
+    svg {
+        height: 50px;
+        width: 50px;
+    }
+
+    header a p {
+        font-size: larger;
+    }
+
+    #ss {
+        height: 175px;
+    }
+
+    #ss .p {
+        font-size: small;
+        padding-left: 0px;
+    }
+
+    #ss .pp {
+        font-size: x-small;
+    }
+
+    #ss .bls {
+        position: relative;
+        top: -34px;
+        width: 168px;
+
+    }
+
+    #ss .bls p {
+        visibility: hidden;
+    }
+
+    #ss .bls #agenda {
+        height: 0px;
+        width: 0px;
+    }
+
+    #ss .bls a {
+        position: relative;
+        left: -111px;
+        top: -1px;
+    }
+
+    .btn-mobile {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+
+    header .btn-mobile:before,.btn-mobile:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-left: 60px;
+    }
+
+    .btn-mobile:after {
+        bottom: 0;
+    }
+
+    .btn-mobile:before {
+        box-shadow: 0px 14px 0px #111;
+    }
+    header nav.show {
+        transform: unset;
+    }
+    .slide-mobile {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        transition: 300ms;
+    }
+    .slide-mobile.show {
+        opacity: .6;
+        visibility: visible;
+    }
+
+}
